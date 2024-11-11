@@ -10,12 +10,14 @@ Step 3: Write some test cases for to be tested and save it as“test_add.py”.
 Step 4: Open command prompt and change the directory to where pytestand program is saved and type “pytest test_add.py” and run it. 
 Step 5: Stop the program. 
 ### Program:
+```
 def add(a,b):
     return a+b
     def test_3_plus_5_equals_8():
       assert add(3,5) == 8
     def test_2_plus_3_equals_5():
-      assert add(2,3) == 6 
+      assert add(2,3) == 6
+```
 ### Output:
 ![image](https://github.com/user-attachments/assets/9613f095-d70a-4df7-9f6c-d275cad0b223)
 ### Result:
